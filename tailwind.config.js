@@ -5,7 +5,15 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      'display': ['Bebas Neue', 'cursive'],
+    },
+    extend: {
+      backgroundImage: {
+        'gold': "url('/goldbg.jpg')",
+        'gold2': "url('/goldbg2.jpg')",
+      },
+    },
   },
   plugins: [],
 }

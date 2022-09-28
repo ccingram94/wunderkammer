@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Footer from '../components/footer'
 import Header from '../components/header'
+import Hero from '../components/hero'
 
 export default function Home() {
   return (
@@ -12,12 +14,9 @@ export default function Home() {
       </Head>
       <Header />
       <main>
-        
-        <h1>Der Wunderkammer</h1>
-
-        <div>
-        </div>
+        <Hero />
       </main>
+      <Footer />
     </div>
   )
 }
