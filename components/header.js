@@ -10,14 +10,15 @@ export default function Header() {
         </div>
         <div className="flex flex-row justify-center bg-gold w-screen border-b-2 border-yellow-800">
             <div className="w-full bg-yellow-700 bg-opacity-70 flex flex-row flex-wrap justify-between p-4">
-              <div>
-                <h1 className="m-4 p-2 text-center font-display text-2xl lg:text-6xl p-2 bg-clip-text text-transparent bg-gold2">✨W✨</h1>
+              <div className="w-1/4 lg:m-2 p-2 flex justify-center content-center items-center">
+                <h1 className="text-center font-display text-2xl lg:text-6xl p-2 bg-clip-text text-transparent bg-gold2">✨W✨</h1>
               </div>
-              <div>
-                <h1 className="m-4 p-2 font-display text-center text-2xl lg:text-6xl p-2 bg-clip-text text-transparent bg-gold2"> Der Wunderkammer </h1>
+              <div className="w-1/4 lg:m-2 p-2 flex flex-col justify-center content-center items-center">
+                <h1 className="font-display text-center text-2xl lg:text-6xl p-2 bg-clip-text text-transparent bg-gold2"> Der Wunderkammer </h1>
+                <h1 className="font-display text-center text-sm lg:text-lg opacity-60"> curiously timeless </h1>
               </div>
-              <div>
-                <ShoppingCartIcon className='m-4 text-black h-6 w-6 lg:h-12 lg:w-12' />
+              <div className="w-1/4 lg:m-2 p-2 flex justify-center content-center items-center">
+                <ShoppingCartIcon className='text-black h-6 w-6 lg:h-16 lg:w-16 opacity-80' />
               </div>
             </div>
         </div>
